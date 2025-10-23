@@ -1,5 +1,12 @@
 # README mínimo necesario de documentación para que cualquiera pueda empezar con sus propios medios
 
+![PHP](https://shields.io/badge/-PHP-3776AB?style=flat&logo=php)
+
+![Laravel](https://img.shields.io/badge/Laravel-10-red)
+
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?logo=vuedotjs&logoColor=fff)](#)
+
+
 ![Logo de readme][imagen1]
 
 [imagen1]: ./assets/l1N10XpkhNLh0ars7Xcf7FHVkhs.svg
@@ -26,7 +33,7 @@ Estos puntos garantizan que alguien pueda **entender qué hace el proyecto y có
 
 ### a) Descripción general del proyecto (por breve que sea)
 
-Un parráfo corto que responda al menos a:
+Un párrafo corto que responda al menos a:
 
 - ¿Qué hace el sistema?
 - ¿Cuál es su propósito principal (por lo menos una descripción breve )?
@@ -34,7 +41,7 @@ Un parráfo corto que responda al menos a:
 
 Ejemplo:
 
-```bash
+```markdown
 Este programa gestiona la generación, firma digital y almacenamiento de pólizas en formato PDF para su posterior envío y archivo usando (PICK y NAS).
 ```
 
@@ -44,11 +51,11 @@ Este programa gestiona la generación, firma digital y almacenamiento de póliza
 
 Al menos mencionar el **stack base**, por ejemplo:
 
-```diff
+```markdown
 - Backend: Laravel 10 (PHP 8.2)
 - Frontend: Vue.js 3 + Vite
 - Base de datos: D3
-- Almacenamiento: NAS coorporativo + Storage Laravel
+- Almacenamiento: NAS corporativo + Storage Laravel
 - Firma digital: API de Signaturit
 ```
 
@@ -58,7 +65,7 @@ Al menos mencionar el **stack base**, por ejemplo:
 
 Breve lista de dependencias del entorno:
 
-```diff
+```markdown
 - PHP >= 8.2
 - Composer
 - Node.js >= 18
@@ -81,7 +88,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 npm run dev ## Arrancar front
-php artisan serve ## Arranacar el back
+php artisan serve ## Arrancar el back
 ```
 
 Con esto, ya cualquiera puede arrancarlo (NO PROBLEMA 😎)
@@ -98,7 +105,7 @@ Pensado para proyectos colaborativos o de cierta complejidad, pero recomendable 
 
 Un resumen de módulos o capas (para visualizar la forma de trabajar):
 
-```bash
+```markdown
 /app/Http/Controllers → Controladores principales (Polizas, Calidad, etc.)
 app/Services → Lógica de negocios (PDF, NAAS, Signaturit, etc)
 app/Traits → Funciones compartidas (manejo de usuarios, logs)
@@ -110,6 +117,8 @@ resources/js/components → Frontend Vue (formularios y vistas)
 ### b) Flujo funcional (breve)
 
 Una descripción vaga pero necesaria del flujo general:
+
+> Resumen del flujo principal (de las generación a la descarga de la póliza)
 
 ```markdown
 1. El usuario selecciona pólizas para generar.
