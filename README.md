@@ -1,6 +1,6 @@
 # README mínimo necesario de documentación para que cualquiera pueda empezar con sus propios medios
 
-![][imagen1]
+![Logo de readme][imagen1]
 
 [imagen1]: ./assets/l1N10XpkhNLh0ars7Xcf7FHVkhs.svg
 
