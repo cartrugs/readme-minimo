@@ -7,6 +7,10 @@
 ## Índice
 
 - [Mínimo indispensable](#1-mínimo-indispensable-debería-estar-siempre-sin-exagerar)
+  - [Descripción general del proyecto](#a-descripción-general-del-proyecto-por-breve-que-sea)
+  - [Tecnologías principales](#b-tecnologías-principales)
+  - [Requisitos previos](#c-requisitos-previos)
+  - [Instrucciones básicas de instalación](#d-instrucciones-básicas-de-instalación)
 - [Nivel estándar de documentación](#2-nivel-estándar-de-documentación-muy-recomendable)
 - [Nivel opcional](#nivel-opcional-pero-muy-recomendable)
 
@@ -14,7 +18,7 @@
 
 Estos puntos garantizan que alguien pueda **entender qué hace el proyecto y cómo ponerlo en marcha sin tener que ir a tirones.**
 
-**a) Descripción general del proyecto (por breve que sea)**
+### a) Descripción general del proyecto (por breve que sea)
 
 Un parráfo corto que responda al menos a:
 
@@ -23,13 +27,14 @@ Un parráfo corto que responda al menos a:
 - ¿A quién va dirigido o qué problema resuelve?
 
 Ejemplo:
+
 ```bash
 Este programa gestiona la generación, firma digital y almacenamiento de pólizas en formato PDF para su posterior envío y archivo usando (PICK y NAS).
 ```
 
 ---
 
-**b) Tecnologías principales**
+### b) Tecnologías principales
 
 Al menos mencionar el **stack base**, por ejemplo:
 
@@ -43,7 +48,7 @@ Al menos mencionar el **stack base**, por ejemplo:
 
 ---
 
-**c) Requisitos previos**
+### c) Requisitos previos
 
 Breve lista de dependencias del entorno:
 
@@ -58,7 +63,7 @@ Breve lista de dependencias del entorno:
 
 ---
 
-**d) Instrucciones básicas de instalación**
+### d) Instrucciones básicas de instalación
 
 El clásico 'cómo levantarlo localmente':
 
@@ -81,9 +86,10 @@ Con esto, ya cualquiera puede arrancarlo (NO PROBLEMA 😎)
 
 Pensado para proyectos colaborativos o de cierta complejidad, pero recomendable de cualquier manera.
 
-**a) Estructura general del sistema**
+### a) Estructura general del sistema
 
 Un resumen de módulos o capas (para visualizar la forma de trabajar):
+
 ```bash
 /app/Http/Controllers → Controladores principales (Polizas, Calidad, etc.)
 app/Services → Lógica de negocios (PDF, NAAS, Signaturit, etc)
@@ -93,7 +99,7 @@ resources/js/components → Frontend Vue (formularios y vistas)
 
 ---
 
-**b) Flujo funcional (breve)**
+### b) Flujo funcional (breve)
 
 Una descripción vaga pero necesaria del flujo general:
 
@@ -111,7 +117,7 @@ Aporta al menos el **contexto mínimo de cómo se relacionan los módulos** sin 
 
 ## Nivel opcional (pero muy recomendable)
 
-**a) Lista de endpoints o rutas API**
+### a) Lista de endpoints o rutas API
 
 Lo ideal sería una lista o tabla:
 
@@ -123,7 +129,7 @@ Lo ideal sería una lista o tabla:
 
 ---
 
-**b) Variables de entorno en .env**
+### b) Variables de entorno en .env
 
 Al menmos las principales claves que necesita:
 
@@ -134,6 +140,3 @@ PICK_API_URL=https://...
 ```
 
 ---
-
-
-
