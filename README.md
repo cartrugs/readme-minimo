@@ -12,7 +12,13 @@
   - [Requisitos previos](#c-requisitos-previos)
   - [Instrucciones básicas de instalación](#d-instrucciones-básicas-de-instalación)
 - [Nivel estándar de documentación](#2-nivel-estándar-de-documentación-muy-recomendable)
+  - [Estructura general](#a-estructura-general)
+  - [Flujo funcional (breve)](#b-flujo-funcional-breve)
 - [Nivel opcional](#nivel-opcional-pero-muy-recomendable)
+  - [Lista de endpoints o rutas API](#a-lista-de-endpoints-o-rutas-api)
+  - [Variables de entorno en .env](#b-variables-de-entorno-en-env)
+  
+---
 
 ## 1. Mínimo indispensable (debería estar siempre, sin exagerar)
 
@@ -86,7 +92,7 @@ Con esto, ya cualquiera puede arrancarlo (NO PROBLEMA 😎)
 
 Pensado para proyectos colaborativos o de cierta complejidad, pero recomendable de cualquier manera.
 
-### a) Estructura general del sistema
+### a) Estructura general
 
 Un resumen de módulos o capas (para visualizar la forma de trabajar):
 
@@ -131,7 +137,7 @@ Lo ideal sería una lista o tabla:
 
 ### b) Variables de entorno en .env
 
-Al menmos las principales claves que necesita:
+Al menos las principales claves que necesita:
 
 ```ini
 SIGNATURIT_APY_KEY= 
