@@ -86,6 +86,8 @@ php artisan serve ## Arranacar el back
 
 Con esto, ya cualquiera puede arrancarlo (NO PROBLEMA 😎)
 
+[Volver al índice](#índice)
+
 ---
 
 ## 2. Nivel estándar de documentación (muy recomendable)
@@ -119,6 +121,8 @@ Una descripción vaga pero necesaria del flujo general:
 
 Aporta al menos el **contexto mínimo de cómo se relacionan los módulos** sin entrar directamente en el código.
 
+[Volver al índice](#índice)
+
 ---
 
 ## Nivel opcional (pero muy recomendable)
@@ -144,5 +148,7 @@ SIGNATURIT_APY_KEY=
 NAS_PAT=/mnt/nas/polizas
 PICK_API_URL=https://...
 ```
+
+[Volver al índice](#índice)
 
 ---
