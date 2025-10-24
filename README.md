@@ -13,7 +13,7 @@
 
 ## Índice
 
-- [Mínimo indispensable](#1-mínimo-indispensable-debería-estar-siempre-sin-exagerar)
+- [Mínimo indispensable](#1-mínimo-indispensable-debería-estar-siempre)
   - [Descripción general del proyecto](#a-descripción-general-del-proyecto-por-breve-que-sea)
   - [Tecnologías principales](#b-tecnologías-principales)
   - [Requisitos previos](#c-requisitos-previos)
@@ -27,7 +27,7 @@
   
 ---
 
-## 1. Mínimo indispensable (debería estar siempre, sin exagerar)
+## 1. Mínimo indispensable (debería estar siempre)
 
 Estos puntos garantizan que alguien pueda **entender qué hace el proyecto y cómo ponerlo en marcha sin tener que ir a tirones.**
 
